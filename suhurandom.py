@@ -8,7 +8,7 @@ try:
         suhu = round(random.uniform(20.0, 40.0), 1)
         kelembapan = round(random.uniform(40.0, 90.0), 1)
         print(f"Suhu: {suhu}°C  |  Kelembapan: {kelembapan}%")
-        time.sleep(3)
+        time.sleep(1)
 
 except KeyboardInterrupt:
     print("\nProgram dihentikan.")
